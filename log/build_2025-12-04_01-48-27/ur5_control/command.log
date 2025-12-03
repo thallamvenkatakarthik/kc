@@ -1,0 +1,4 @@
+Invoking command in '/home/karthik/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur5_control -- -j16 -l16
+Invoked command in '/home/karthik/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur5_control -- -j16 -l16
+Invoking command in '/home/karthik/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur5_control
+Invoked command in '/home/karthik/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur5_control

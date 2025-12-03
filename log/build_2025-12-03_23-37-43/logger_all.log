@@ -1,0 +1,464 @@
+[0.055s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.055s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e088281e3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e088281df00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e088281df00>>, mixin_verb=('build',))
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.139s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/karthik/colcon_ws'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_control' with type 'ros.ament_cmake' and name 'ur5_control'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_simulation_gz' with type 'ros.ament_cmake' and name 'ur_simulation_gz'
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.166s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/ebot_description', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/ebot_description', 'symlink_install': False, 'test_result_base': None}
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.167s] DEBUG:colcon.colcon_core.verb:Building package 'eyantra_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/eyantra_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/eyantra_warehouse', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/eyantra_warehouse', 'symlink_install': False, 'test_result_base': None}
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.167s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.167s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/ur5_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/ur5_control', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/ur5_control', 'symlink_install': False, 'test_result_base': None}
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.167s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/ur_description', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karthik/colcon_ws/build/ur_simulation_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karthik/colcon_ws/install/ur_simulation_gz', 'merge_install': False, 'path': '/home/karthik/colcon_ws/src/ur_simulation_gz', 'symlink_install': False, 'test_result_base': None}
+[0.168s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.168s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/ur_description' with build type 'ament_cmake'
+[0.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/ur_description'
+[0.170s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/ebot_description' with build type 'ament_cmake'
+[0.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/ebot_description'
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/eyantra_warehouse' with build type 'ament_cmake'
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/eyantra_warehouse'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/linkattacher_msgs' with build type 'ament_cmake'
+[0.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/linkattacher_msgs'
+[0.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.178s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/ur5_control' with build type 'ament_cmake'
+[0.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/ur5_control'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur_description': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_description -- -j16 -l16
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ebot_description': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ebot_description -- -j16 -l16
+[0.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/eyantra_warehouse': /usr/bin/cmake --build /home/karthik/colcon_ws/build/eyantra_warehouse -- -j16 -l16
+[0.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/linkattacher_msgs': /usr/bin/cmake --build /home/karthik/colcon_ws/build/linkattacher_msgs -- -j16 -l16
+[0.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur5_control': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur5_control -- -j16 -l16
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ebot_description' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ebot_description -- -j16 -l16
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ebot_description': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ebot_description
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/eyantra_warehouse' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/eyantra_warehouse -- -j16 -l16
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/eyantra_warehouse': /usr/bin/cmake --install /home/karthik/colcon_ws/build/eyantra_warehouse
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur_description' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_description -- -j16 -l16
+[0.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur_description': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_description
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur5_control' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur5_control -- -j16 -l16
+[0.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur5_control': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur5_control
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description' for CMake module files
+[0.257s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description' for CMake config files
+[0.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ebot_description' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ebot_description
+[0.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib'
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/bin'
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/bin'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[0.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[0.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description' for CMake module files
+[0.270s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description' for CMake config files
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/bin'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ebot_description/bin'
+[0.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[0.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[0.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description' for CMake module files
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur_description' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_description
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description' for CMake config files
+[0.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/bin'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/bin'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[0.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[0.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.278s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description' for CMake module files
+[0.278s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description' for CMake config files
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib'
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/bin'
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_description/bin'
+[0.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[0.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[0.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[0.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[0.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[0.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[0.282s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse' for CMake module files
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/eyantra_warehouse' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/eyantra_warehouse
+[0.283s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse' for CMake config files
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[0.285s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib'
+[0.285s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/bin'
+[0.285s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[0.285s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[0.285s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/bin'
+[0.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[0.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[0.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[0.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[0.287s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse' for CMake module files
+[0.287s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse' for CMake config files
+[0.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/bin'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/eyantra_warehouse/bin'
+[0.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[0.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[0.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[0.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[0.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[0.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control' for CMake module files
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur5_control' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur5_control
+[0.292s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control' for CMake config files
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'cmake_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.sh'
+[0.293s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib'
+[0.294s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/bin'
+[0.294s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[0.294s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib/python3.10/site-packages'
+[0.294s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/bin'
+[0.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.dsv'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.bash'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.zsh'
+[0.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur5_control/share/colcon-core/packages/ur5_control)
+[0.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[0.296s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control' for CMake module files
+[0.296s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control' for CMake config files
+[0.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'cmake_prefix_path')
+[0.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.dsv'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.sh'
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib'
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/bin'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/lib/python3.10/site-packages'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur5_control/bin'
+[0.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.ps1'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.dsv'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.sh'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.bash'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur5_control/share/ur5_control/package.zsh'
+[0.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur5_control/share/colcon-core/packages/ur5_control)
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karthik/colcon_ws/src/ur_simulation_gz' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karthik/colcon_ws/src/ur_simulation_gz'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_simulation_gz -- -j16 -l16
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_simulation_gz -- -j16 -l16
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_simulation_gz
+[0.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz' for CMake module files
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_simulation_gz
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz' for CMake config files
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/bin'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib/python3.10/site-packages'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/bin'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[0.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[0.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz' for CMake module files
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz' for CMake config files
+[0.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/bin'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/lib/python3.10/site-packages'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/ur_simulation_gz/bin'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[0.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/linkattacher_msgs' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/linkattacher_msgs -- -j16 -l16
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karthik/colcon_ws/build/linkattacher_msgs': /usr/bin/cmake --install /home/karthik/colcon_ws/build/linkattacher_msgs
+[0.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karthik/colcon_ws/build/linkattacher_msgs' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/linkattacher_msgs
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs' for CMake module files
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs' for CMake config files
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/bin'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/bin'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[0.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs' for CMake module files
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs' for CMake config files
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib'
+[0.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/karthik/colcon_ws/install/linkattacher_msgs/bin'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/karthik/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[0.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karthik/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.467s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karthik/colcon_ws/install/local_setup.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karthik/colcon_ws/install/_local_setup_util_ps1.py'
+[0.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karthik/colcon_ws/install/setup.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karthik/colcon_ws/install/local_setup.sh'
+[0.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karthik/colcon_ws/install/_local_setup_util_sh.py'
+[0.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karthik/colcon_ws/install/setup.sh'
+[0.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karthik/colcon_ws/install/local_setup.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karthik/colcon_ws/install/setup.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karthik/colcon_ws/install/local_setup.zsh'
+[0.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karthik/colcon_ws/install/setup.zsh'

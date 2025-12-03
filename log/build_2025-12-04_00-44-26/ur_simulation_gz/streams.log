@@ -1,0 +1,27 @@
+[0.032s] Invoking command in '/home/karthik/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_simulation_gz -- -j16 -l16
+[0.063s] Invoked command in '/home/karthik/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --build /home/karthik/colcon_ws/build/ur_simulation_gz -- -j16 -l16
+[0.064s] Invoking command in '/home/karthik/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_simulation_gz
+[0.069s] -- Install configuration: ""
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch/spawn_arm.launch.py
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/twist_servo_cal.py
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/kdl_parser_py.py
+[0.069s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/ur5_arm.urdf
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+[0.070s] -- Installing: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+[0.070s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+[0.071s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+[0.071s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+[0.071s] -- Up-to-date: /home/karthik/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.xml
+[0.072s] Invoked command in '/home/karthik/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/karthik/colcon_ws/install/ur_description:/home/karthik/colcon_ws/install/ur_simulation_gz:/home/karthik/colcon_ws/install/ur5_control:/home/karthik/colcon_ws/install/linkattacher_msgs:/home/karthik/colcon_ws/install/eyantra_warehouse:/home/karthik/colcon_ws/install/ebot_description:/opt/ros/humble:/home/karthik/colcon_ws/install/arm /usr/bin/cmake --install /home/karthik/colcon_ws/build/ur_simulation_gz
