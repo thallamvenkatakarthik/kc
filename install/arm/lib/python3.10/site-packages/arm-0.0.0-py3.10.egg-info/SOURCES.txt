@@ -18,6 +18,8 @@ arm/task1c.py
 arm/task2b.py
 arm/task2b_2.py
 arm/task3.py
+arm/task3b_tf_publisher.py
+arm/task3b_ur5_servo_pick_place.py
 resource/arm
 test/test_copyright.py
 test/test_flake8.py

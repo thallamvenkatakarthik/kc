@@ -27,6 +27,8 @@ setup(
             'task2A = arm.ebot_nav_task2a:main',
             'shape = arm.shape_detector_task2a:main',
             'task3 = arm.task3:main',
+            'task3a_tf_publisher = arm.task3a_tf_publisher:main',
+            'task3b_ur5_servo_pick_place = arm.task3b_ur5_servo_pick_place:main',
             
         ],
     },
