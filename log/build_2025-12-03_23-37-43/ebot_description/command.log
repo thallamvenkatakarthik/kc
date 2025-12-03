@@ -1,0 +1,4 @@
+Invoking command in '/home/karthik/colcon_ws/build/ebot_description': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ebot_description -- -j16 -l16
+Invoked command in '/home/karthik/colcon_ws/build/ebot_description' returned '0': /usr/bin/cmake --build /home/karthik/colcon_ws/build/ebot_description -- -j16 -l16
+Invoking command in '/home/karthik/colcon_ws/build/ebot_description': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ebot_description
+Invoked command in '/home/karthik/colcon_ws/build/ebot_description' returned '0': /usr/bin/cmake --install /home/karthik/colcon_ws/build/ebot_description
