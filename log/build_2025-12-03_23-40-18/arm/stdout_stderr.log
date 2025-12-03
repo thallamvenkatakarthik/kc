@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/arm/arm.egg-info
+writing ../../build/arm/arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/arm/arm.egg-info/dependency_links.txt
+writing entry points to ../../build/arm/arm.egg-info/entry_points.txt
+writing requirements to ../../build/arm/arm.egg-info/requires.txt
+writing top-level names to ../../build/arm/arm.egg-info/top_level.txt
+writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/karthik/colcon_ws/build/arm/build
+creating /home/karthik/colcon_ws/build/arm/build/lib
+creating /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/control.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/ebot_nav_task2a.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/__init__.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/ebot_nav_task1A.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/task2b_2.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/task1c.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/task1b.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/shape_detector_task2a.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+copying arm/task2b.py -> /home/karthik/colcon_ws/build/arm/build/lib/arm
+running install
+running install_lib
+creating /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/control.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/ebot_nav_task2a.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/__init__.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/ebot_nav_task1A.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/task2b_2.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/task1c.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/task1b.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/shape_detector_task2a.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/karthik/colcon_ws/build/arm/build/lib/arm/task2b.py -> /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/control.py to control.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/ebot_nav_task2a.py to ebot_nav_task2a.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/ebot_nav_task1A.py to ebot_nav_task1A.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task2b_2.py to task2b_2.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task1c.py to task1c.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task1b.py to task1b.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/shape_detector_task2a.py to shape_detector_task2a.cpython-310.pyc
+byte-compiling /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task2b.py to task2b.cpython-310.pyc
+running install_data
+creating /home/karthik/colcon_ws/install/arm/share/ament_index
+creating /home/karthik/colcon_ws/install/arm/share/ament_index/resource_index
+creating /home/karthik/colcon_ws/install/arm/share/ament_index/resource_index/packages
+copying resource/arm -> /home/karthik/colcon_ws/install/arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/karthik/colcon_ws/install/arm/share/arm
+running install_egg_info
+Copying ../../build/arm/arm.egg-info to /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_node script to /home/karthik/colcon_ws/install/arm/lib/arm
+Installing ebot_nav_task1A script to /home/karthik/colcon_ws/install/arm/lib/arm
+Installing shape script to /home/karthik/colcon_ws/install/arm/lib/arm
+Installing task1b script to /home/karthik/colcon_ws/install/arm/lib/arm
+Installing task1c script to /home/karthik/colcon_ws/install/arm/lib/arm
+Installing task2A script to /home/karthik/colcon_ws/install/arm/lib/arm
+writing list of installed files to '/home/karthik/colcon_ws/build/arm/install.log'
