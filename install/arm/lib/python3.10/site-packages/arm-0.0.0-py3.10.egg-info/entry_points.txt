@@ -5,4 +5,5 @@ shape = arm.shape_detector_task2a:main
 task1b = arm.task1b:main
 task1c = arm.task1c:main
 task2A = arm.ebot_nav_task2a:main
+task3 = arm.task3:main
 

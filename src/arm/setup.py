@@ -26,8 +26,7 @@ setup(
             'ebot_nav_task1A = arm.ebot_nav_task1A:main',
             'task2A = arm.ebot_nav_task2a:main',
             'shape = arm.shape_detector_task2a:main',
-
-
+            'task3 = arm.task3:main',
             
         ],
     },

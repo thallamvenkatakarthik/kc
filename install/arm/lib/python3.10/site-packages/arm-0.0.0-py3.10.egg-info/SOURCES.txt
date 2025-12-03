@@ -17,6 +17,7 @@ arm/task1b.py
 arm/task1c.py
 arm/task2b.py
 arm/task2b_2.py
+arm/task3.py
 resource/arm
 test/test_copyright.py
 test/test_flake8.py

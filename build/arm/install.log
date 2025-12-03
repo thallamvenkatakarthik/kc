@@ -1,4 +1,5 @@
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/control.py
+/home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task3.py
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/ebot_nav_task2a.py
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__init__.py
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/ebot_nav_task1A.py
@@ -8,6 +9,7 @@
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/shape_detector_task2a.py
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/task2b.py
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__pycache__/control.cpython-310.pyc
+/home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__pycache__/task3.cpython-310.pyc
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__pycache__/ebot_nav_task2a.cpython-310.pyc
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__pycache__/__init__.cpython-310.pyc
 /home/karthik/colcon_ws/install/arm/lib/python3.10/site-packages/arm/__pycache__/ebot_nav_task1A.cpython-310.pyc
@@ -31,3 +33,4 @@
 /home/karthik/colcon_ws/install/arm/lib/arm/task1b
 /home/karthik/colcon_ws/install/arm/lib/arm/task1c
 /home/karthik/colcon_ws/install/arm/lib/arm/task2A
+/home/karthik/colcon_ws/install/arm/lib/arm/task3
