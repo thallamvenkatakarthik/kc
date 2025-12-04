@@ -232,7 +232,7 @@ class TaskTFPublisher(Node):
                     t_fert = TransformStamped()
                     t_fert.header.stamp = self.get_clock().now().to_msg()
                     t_fert.header.frame_id = 'base_link'
-                    t_fert.child_frame_id = f"{TEAM_ID}_fertilizer_can"
+                    t_fert.child_frame_id = f"{TEAM_ID}_fertilizer_1"
                     t_fert.transform.translation.x = float(base_x)
                     t_fert.transform.translation.y = float(base_y)
                     t_fert.transform.translation.z = float(base_z)
